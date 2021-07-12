@@ -1,0 +1,37 @@
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img{
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 3px #10B981;
+}
+
+.username{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.settingIcon{
+  color: #3e3e3e;
+  cursor: pointer;
+}
+
+.settingIcon:hover{
+  transition: 0.1s;
+  animation: 2s rotate linear infinite;
+}
+
+@keyframes rotate{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}

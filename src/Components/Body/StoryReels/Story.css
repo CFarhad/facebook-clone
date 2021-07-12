@@ -1,0 +1,29 @@
+.story{
+  position: relative;
+  width: 150px;
+  height: 240px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 5px 17px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+  transition: 100ms ease-in;
+}
+
+.story:hover{
+  transform: scale(1.07);
+}
+
+.story__info{
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.story__profile{
+  width: 35px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 3px #2e81f4;
+}

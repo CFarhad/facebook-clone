@@ -1,0 +1,35 @@
+.Event__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Event__banner{
+  width: 100%;
+  height: 150px;
+  background-image: url("https://media.istockphoto.com/photos/nicelooking-attractive-gorgeous-glamorous-elegant-stylish-cheerful-picture-id1165055006?k=6&m=1165055006&s=612x612&w=0&h=X_d75QPcjQ0Zx-X2tTD4npQOIjD6lKXdDPqxJHuovhc=");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.Event__content{
+  margin-top: 30px;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+}
+
+.content img{
+  height: 60px;
+  border-radius: 8px;
+  margin-right: 10px;
+}

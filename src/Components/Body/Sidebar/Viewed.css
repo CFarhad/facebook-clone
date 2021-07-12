@@ -1,0 +1,24 @@
+.Viewed__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.Viewed__content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  grid-row-gap: 15px;
+}
+
+.content img{
+  height: 100px;
+  border-radius: 8px;
+  filter: grayscale(1);
+  transition: 200ms ease;
+}
+
+.content:hover img{
+  filter: grayscale(0);
+}

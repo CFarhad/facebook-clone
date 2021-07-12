@@ -1,0 +1,16 @@
+.login{
+  height: 100vh;
+  background: #f0f1f2;
+}
+
+.logo{
+  width: 150px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.login__method{
+  width: 200px;
+  margin: 0 auto;
+  padding-top: 50px;
+}

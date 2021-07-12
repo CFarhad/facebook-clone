@@ -1,13 +1,30 @@
+import Header from './Components/Header/Header';
+import Body from './Components/Body/Body';
+import Login from './Components/Login'
+import {connect} from 'react-redux'
+import './App.css';
 
-
-function App() {
+function App(props) {
+  let {setUser} = props
+  const isUser = setUser;
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Project i is ready</h1>
-      </header>
+      {!setUser ? (
+        <Login />
+      ) : (
+        <div>
+          <Header />
+          <Body />
+        </div>
+      )}
     </div>
   );
 }
 
-export default App;
+const mapStateToProps = state=>{
+  return {
+    setUser: state.user
+  }
+}
+
+export default connect(mapStateToProps)(App);

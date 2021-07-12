@@ -1,0 +1,25 @@
+.UserMessage{
+  padding: 7px 10px;
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.UserMessage:hover{
+  background: #dfe0e2;
+}
+
+.UserMessage img {
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 3px #2e81f4;
+}
+
+.UserMessage__account{
+  margin-left: 20px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
